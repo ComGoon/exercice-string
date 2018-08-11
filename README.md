@@ -1,0 +1,2 @@
+# exercice-string
+1- Transformez une chaîne écrite dans des casses différentes afin que chaque mot ait une initiale en majuscule. 2- En utilisant la fonction strlen(), écrivez une boucle qui affiche chaque lettre de la chaîne PHP 5 sur une ligne différente. 3- À partir de deux chaînes quelconques contenues dans des variables, effectuez une comparaison entre elles pour pouvoir les afficher en ordre alphabétique naturel.
