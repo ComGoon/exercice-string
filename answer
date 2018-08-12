@@ -1,0 +1,39 @@
+<!--Author: Oussoumane Mahaman Madani ( GOMYC{}DE )-->
+
+
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: comgoon
+ * Date: 8/12/18
+ * Time: 12:44 AM
+ */
+
+
+// 1)
+$myString="I'm learning PHP at GoMyCode with great 1000CODERS fellows.";  //the string with mixed upper and lower case
+echo ucwords(strtolower($myString));    //converting the whole string to lower case then convert each first letter of the words to upper case
+
+
+echo "<br><br>";
+// 2)
+$myString2 = "PHP 5";  //in php, a string is treated as an array of characters
+
+for($i=0;$i<strlen($myString2);$i++) //"strlen" returns the length of a string
+{
+    echo "<strong> $myString2[$i]</strong>", "-";
+}
+
+echo "<br><br>";
+
+// 3)
+$myString3="Hackathon";
+$myString4="GoMyCode";
+
+if($myString3<$myString4){ //comparing the two strings alphabetically
+    echo "Per Aphabetic order, the string: " . "\"<strong>$myString3</strong>\""," comes before ", "\"<strong>$myString4</strong>\"";
+}
+else{
+    echo "Per Aphabetic order, the string: " . "<strong>\"$myString4\"</strong>"," comes before ", "<strong>\"$myString3\"</strong>";
+}
